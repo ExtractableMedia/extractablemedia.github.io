@@ -1,0 +1,13 @@
+title: Extractable Media | technology consultancy in Baltimore, MD
+email: info@extractablemedia.com
+description: > # this means to ignore newlines until "baseurl:"
+  Extractable Media is a web development, product design, and user experience
+  consultancy based in Baltimore, MD.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://extractablemedia.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock

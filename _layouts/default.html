@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  {% include head.html %}
+
+  <body>
+    <main class="main-container" aria-label="Content">
+      {{ content }}
+    </main>
+
+    <footer>
+      &copy; {{ site.time | date: '%Y' }} Extractable Media, LLC
+    </footer>
+  </body>
+</html>
