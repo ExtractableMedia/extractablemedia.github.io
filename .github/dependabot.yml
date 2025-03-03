@@ -5,9 +5,10 @@
 
 version: 2
 updates:
-
-  # Maintain dependencies for yarn
-  - package-ecosystem: "bundler" # See documentation for possible values
+  - package-ecosystem: bundler
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: weekly
+    open-pull-requests-limit: 10
+    assignees:
+      - mattmenefee
