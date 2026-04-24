@@ -12,3 +12,9 @@ updates:
     open-pull-requests-limit: 10
     assignees:
       - mattmenefee
+    groups:
+      ruby:
+        applies-to: version-updates
+        update-types:
+          - "minor"
+          - "patch"
