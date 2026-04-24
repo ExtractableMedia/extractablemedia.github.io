@@ -7,5 +7,5 @@ ruby file: '.ruby-version'
 gem 'webrick', '~> 1.9'
 
 group :jekyll_plugins do
-  gem 'github-pages'
+  gem 'github-pages', '~> 232'
 end
