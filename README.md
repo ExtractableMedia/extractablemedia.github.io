@@ -1,7 +1,7 @@
 # Extractable Media
 
 This repository is for hosting Extractable Media's public website on GitHub
-Pages. For more information, visit http://www.extractablemedia.com.
+Pages. For more information, visit https://extractablemedia.com.
 
 # Development
 
