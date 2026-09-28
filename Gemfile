@@ -2,10 +2,5 @@ source 'https://rubygems.org'
 
 ruby file: '.ruby-version'
 
-# gem 'jekyll-coffeescript'
-
+gem 'jekyll', '~> 4.4'
 gem 'webrick', '~> 1.9'
-
-group :jekyll_plugins do
-  gem 'github-pages'
-end
